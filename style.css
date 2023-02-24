@@ -1,0 +1,126 @@
+body {
+  font-family: "Alkalami", serif;
+  font-family: "Cinzel", serif;
+}
+/* header */
+
+nav {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+header {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 80px;
+}
+li {
+  display: flex;
+  list-style: none;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 8px;
+}
+ul li a {
+  color: rgb(97, 85, 19);
+  text-decoration: none;
+  color: none;
+  font-size: 25px;
+}
+ul li a:hover {
+  color: #9c8d7e;
+}
+/* * home */
+
+.title {
+  color: rgb(153, 153, 85);
+  position: absolute;
+  top: 80px;
+  right: 50px;
+  left: 50px;
+  text-shadow: 1px 1px #333;
+  text-align: center;
+  font-size: 40px;
+}
+
+#welcome {
+  text-align: center;
+  font-size: 20px;
+}
+#heroes {
+  position: relative;
+  background: url("assets/argonauts.jpg") no-repeat;
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  margin-top: 40px;
+}
+
+/* royal family */
+
+h2 {
+  color: rgb(153, 153, 85);
+  text-shadow: 1px 1px #333;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  text-align: center;
+  font-size: 28px;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+#royalfamily .flex-container div {
+  flex: 1 1 0;
+}
+
+/* Assets */
+
+table {
+  background-color: #e7d5deea;
+  margin: auto;
+  font-size: 28px;
+  border: solid #292c2b 1px;
+  border-collapse: collapse;
+  width: 80%;
+  box-shadow: 0px 0px 14px 0 black;
+}
+th {
+  border: solid black 1px;
+  text-align: center;
+  padding: 10px;
+}
+td {
+  border: solid black 1px;
+  text-align: center;
+  padding: 5px;
+}
+.title2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  color: rgb(153, 153, 85);
+  text-shadow: 1px 1px #333;
+  text-align: center;
+}
+
+/* Contact */
+
+#contactform {
+  width: 90%;
+  margin-left: 50px;
+}
+input,
+textarea {
+  margin-bottom: 18px;
+  margin-top: 10px;
+  width: 100%;
+}
+label {
+  margin-top: 28px;
+}
